@@ -25,10 +25,29 @@ public class javaProject {
 			return reversed;
         }
     public char stringcheck(String str,int index){
-    	    {
+    	    
     	    	
     	      return str.charAt(index);
     	    }
-    	}
+    public int calculatePower(int number,int x) {
+       
+    		long result = 1;
+            int i = x;
+            for (;i != 0; --i)
+            {
+                result *= number;
+            }
+            
+         return (int) result;
+        
+    }
+    public double AreaTriangleDemo(double base,double height) {
+  
+    	      double area = (base* height)/2;
+			return area;    
+    	   }
+    	
 }
+
+
 
